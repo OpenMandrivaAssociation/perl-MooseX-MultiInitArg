@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-MultiInitArg-0.01.tar.gz: 261aaebf3bf65db9c6f3da65d41e878e18730939
 sources:
-  "MooseX-MultiInitArg-0.01.tar.gz": 261aaebf3bf65db9c6f3da65d41e878e18730939
+  MooseX-MultiInitArg-0.02.tar.gz: 566a6a27ff3a7cfa902608fb3022af279a5c7b56

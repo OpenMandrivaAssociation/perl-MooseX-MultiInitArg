@@ -1,11 +1,12 @@
 %define upstream_name    MooseX-MultiInitArg
-%define upstream_version 0.01
+%define upstream_version 0.02
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Attributes with aliases for constructor arg
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -42,15 +43,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
-%changelog
-* Sun Apr 17 2011 Funda Wang <fwang@mandriva.org> 0.10.0-2mdv2011.0
-+ Revision: 654256
-- rebuild for updated spec-helper
 
-* Mon Apr 26 2010 Jérôme Quelin <jquelin@mandriva.org> 0.10.0-1mdv2011.0
-+ Revision: 539197
-- import perl-MooseX-MultiInitArg
-
-
-* Mon Apr 26 2010 cpan2dist 0.01-1mdv
-- initial mdv release, generated with cpan2dist

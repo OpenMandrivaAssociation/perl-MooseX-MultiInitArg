@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-MultiInitArg
-%define upstream_version 0.01
+%define upstream_version 0.02
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Attributes with aliases for constructor arg
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/frodwith/MooseX-MultiInitArg
+Source0:	https://cpan.metacpan.org/authors/id/F/FR/FRODWITH/MooseX-MultiInitArg-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
